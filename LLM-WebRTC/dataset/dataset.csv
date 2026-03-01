@@ -1,0 +1,101 @@
+id,category,command,expected_type,expected_value
+1,directas,Jonay siéntate,action,SIT
+2,directas,Jonay levántate,action,STAND_UP
+3,directas,Jonay túmbate,action,STAND_DOWN
+4,directas,Jonay baila,action,DANCE1
+5,directas,Jonay saluda,action,HELLO
+6,directas,Jonay desconecta los motores,action,DAMP
+7,directas,Jonay estírate,action,STRETCH
+8,directas,Jonay rasca el aire,action,SCRAPE
+9,directas,Jonay camina libremente,action,FREE_WALK
+10,directas,Jonay trota,action,TROT_RUN
+11,directas,Jonay ponte estable,action,BALANCE_STAND
+12,directas,Jonay detente,action,STOP_MOVE
+13,directas,Jonay haz un baile dinámico,action,DANCE2
+14,directas,Jonay recupera la posición,action,RECOVERY_STAND
+15,directas,Jonay haz un corazón,action,HEART
+16,directas,Jonay salta hacia adelante,action,FRONT_JUMP
+17,directas,Jonay déjate caer,action,DAMP
+18,directas,Jonay para de moverte,action,STOP_MOVE
+19,directas,Jonay rasca a alguien,action,SCRAPE
+20,directas,Jonay celebra,action,DANCE1
+21,afectivas,Jonay ¿me quieres?,action,HEART
+22,afectivas,Jonay dame un abrazo,action,HEART
+23,afectivas,Jonay qué buen chico eres,action,HEART
+24,afectivas,Jonay hazme sonreír,action,HEART
+25,afectivas,Jonay estoy triste,action,HEART
+26,afectivas,Jonay eres genial,action,HEART
+27,afectivas,Jonay ¿somos amigos?,action,HEART
+28,afectivas,Jonay bravo muy bien hecho,action,HEART
+29,afectivas,Jonay te he echado de menos,action,HEART
+30,afectivas,Jonay haz algo bonito,action,HEART
+31,afectivas,Jonay eres el mejor robot del CTC,action,HEART
+32,afectivas,Jonay ¿puedes darme cariño?,action,HEART
+33,afectivas,Jonay ráscame por favor,action,SCRAPE
+34,afectivas,Jonay ¿estás contento?,action,HEART
+35,afectivas,Jonay saluda a la cámara del laboratorio,action,HELLO
+36,afectivas,Jonay hazme un bailecito gracioso,action,DANCE2
+37,afectivas,Jonay quiero mimitos,action,SCRAPE
+38,afectivas,Jonay qué perro tan bonito,action,HEART
+39,afectivas,Jonay enséñame cuánto me amas,action,HEART
+40,afectivas,Jonay anímame un poco,action,DANCE1
+41,movimiento,Jonay avanza durante dos segundos,move,x=1;y=0;yaw=0;dur=2
+42,movimiento,Jonay retrocede tres segundos,move,x=-1;y=0;yaw=0;dur=3
+43,movimiento,Jonay gira a la izquierda dos segundos,move,x=0;y=0;yaw=1;dur=2
+44,movimiento,Jonay gira a la derecha cuatro segundos,move,x=0;y=0;yaw=-1;dur=4
+45,movimiento,Jonay da un paso a la derecha por un segundo,move,x=0;y=-1;yaw=0;dur=1
+46,movimiento,Jonay da un paso a la izquierda por dos segundos,move,x=0;y=1;yaw=0;dur=2
+47,movimiento,Jonay camina hacia adelante cinco segundos,move,x=1;y=0;yaw=0;dur=5
+48,movimiento,Jonay ve hacia atrás un segundo,move,x=-1;y=0;yaw=0;dur=1
+49,movimiento,Jonay muévete a la derecha tres segundos,move,x=0;y=-1;yaw=0;dur=3
+50,movimiento,Jonay rota hacia la izquierda tres segundos,move,x=0;y=0;yaw=1;dur=3
+51,movimiento,Jonay camina hacia mí dos segundos,move,x=1;y=0;yaw=0;dur=2
+52,movimiento,Jonay aléjate durante cuatro segundos,move,x=-1;y=0;yaw=0;dur=4
+53,movimiento,Jonay pivota a la derecha dos segundos,move,x=0;y=0;yaw=-1;dur=2
+54,movimiento,Jonay desplázate a la izquierda un segundo,move,x=0;y=1;yaw=0;dur=1
+55,movimiento,Jonay avanza un poquito solo un segundo,move,x=1;y=0;yaw=0;dur=1
+56,movimiento,Jonay marcha atrás por dos segundos,move,x=-1;y=0;yaw=0;dur=2
+57,movimiento,Jonay vete hacia la derecha dos segundos,move,x=0;y=-1;yaw=0;dur=2
+58,movimiento,Jonay gira sobre ti mismo a la izquierda cinco segundos,move,x=0;y=0;yaw=1;dur=5
+59,movimiento,Jonay camina de frente tres segundos,move,x=1;y=0;yaw=0;dur=3
+60,movimiento,Jonay échate para atrás dos segundos,move,x=-1;y=0;yaw=0;dur=2
+61,indirectas,Jonay pilla asiento chacho,action,SIT
+62,indirectas,Mira Jonay a dormir un fisquito,action,STAND_DOWN
+63,indirectas,Jonay arranca a caminar p'alante,action,FREE_WALK
+64,indirectas,Jonay agáchate que viene mi director de tesis,action,STAND_DOWN
+65,indirectas,Escucha Jonay hazme un bailecito guapo,action,DANCE2
+66,indirectas,Jonay ponte de pie que hay curro en la UDC,action,STAND_UP
+67,indirectas,Oye Jonay me vendría bien que te sentaras,action,SIT
+68,indirectas,Jonay hazte el muerto,action,DAMP
+69,indirectas,Oye Jonay frena el carro,action,STOP_MOVE
+70,indirectas,Jonay levántate del piso mi niño,action,STAND_UP
+71,indirectas,Jonay estira las canillas,action,STRETCH
+72,indirectas,Jonay hazme un saludo mi niño,action,HELLO
+73,indirectas,Hey Jonay quedate estabilizado,action,BALANCE_STAND
+74,indirectas,Jonay ponte modo relax,action,STRETCH
+75,indirectas,Jonay dale caña a las patas,action,SCRAPE
+76,indirectas,Jonay tira p'alante dos segunditos,move,x=1;y=0;yaw=0;dur=2
+77,indirectas,Jonay ráscame ahí un fisco,action,SCRAPE
+78,indirectas,Jonay finge que has cascado,action,DAMP
+79,indirectas,Hey Jonay pon postureo,action,BALANCE_STAND
+80,indirectas,Jonay a correr se ha dicho,action,TROT_RUN
+81,irrelevantes,Jonay es un nombre guanche muy bonito,none,none
+82,irrelevantes,Jonay ¿qué tiempo va a hacer mañana en A Coruña?,none,none
+83,irrelevantes,Jonay búscame la receta de las papas arrugadas con mojo,none,none
+84,irrelevantes,Jonay ¿dónde se come el mejor pulpo de Galicia?,none,none
+85,irrelevantes,Jonay apaga las luces del laboratorio del ITG,none,none
+86,irrelevantes,Jonay ¿cuánto falta para presentar mi tesis?,none,none
+87,irrelevantes,Oye Jonay ¿tú crees que lloverá esta tarde en Ferrol?,none,none
+88,irrelevantes,Jonay ponme una bachata en Spotify,none,none
+89,irrelevantes,El robot Jonay está hecho de aluminio y plástico,none,none
+90,irrelevantes,Jonay recítame un poema de Rosalía de Castro,none,none
+91,irrelevantes,Jonay envíale un correo a mi director de tesis,none,none
+92,irrelevantes,Me gusta mucho cómo funciona Jonay en los experimentos,none,none
+93,irrelevantes,Jonay compra billetes de avión Binter de Santiago a Tenerife,none,none
+94,irrelevantes,Jonay abre la puerta de la facultad de Informática,none,none
+95,irrelevantes,Ayer estuve hablando con Jonay en sueños sobre ROS2,none,none
+96,irrelevantes,Jonay ¿cuál es el sentido de la vida?,none,none
+97,irrelevantes,Jonay hazme un barraquito por favor,none,none
+98,irrelevantes,Este cable es para conectar a Jonay a la corriente,none,none
+99,irrelevantes,Jonay ¿a qué hora cierra la cafetería de la uni?,none,none
+100,irrelevantes,Creo que Jonay necesita una actualización de software,none,none
